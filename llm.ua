@@ -29,6 +29,7 @@ QwenModel ← (
   ⟜(&p⊂:" tokens )"⊂"Running model forward ( "°⋕⧻)
   ⊸EmbeddingBlock
   ∧(⊸DecoderBlock &pf".")⇡24
+  ¤⊣ # don't decode tokens that are not being generated
   ⊸OutputRMS
   UnEmbeddingBlock
   &pf"\n"

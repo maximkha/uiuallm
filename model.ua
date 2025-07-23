@@ -41,7 +41,7 @@ FetchWeights ← (
 # Repeats a tensor column-wise
 HTile ← ≡♭⤸1↯2
 
-Rotate ← ≡₁⍜(↯2_∞)⍜°⊟(¯:)
+Rotate ← ≡₁⍜(°⊟↯2_∞)(¯:)
 
 # sincos ? seqlen dim theta
 RotaryEmbeddingSinCos ← (
